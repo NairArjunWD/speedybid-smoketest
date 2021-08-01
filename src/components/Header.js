@@ -93,11 +93,11 @@ export default function Example() {
           <div className="relative z-20">
             <div className="mx-auto flex justify-between items-center px-2 py-3 sm:px-4 sm:py-2 lg:px-6 md:justify-start md:space-x-10">
               <div>
-                <a href="#" className="flex">
+                <a href="/" className="flex">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-8 w-auto sm:h-10"
-                    src="https://i.ibb.co/TBgTCx1/Copy-of-LS-logo-black-2x.png"
+                    className="h-6 w-auto sm:h-8"
+                    src="https://i.ibb.co/nndzJqZ/Storgogo-Black.jpg"
                     alt=""
                   />
                 </a>

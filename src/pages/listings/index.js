@@ -1,10 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../components/Header"
 import MapView from "../../components/MapView"
 import ListsView from "../../components/ListsView"
 import { getWindowDimensions } from '../../util/window'
-/* This example requires Tailwind CSS v2.0+ */
-import { useState } from 'react'
 
 const { height } = getWindowDimensions()
 
