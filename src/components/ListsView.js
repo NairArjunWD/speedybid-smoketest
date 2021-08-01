@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { MailIcon, PhoneIcon } from '@heroicons/react/solid'
+import { withRouter } from "react-router-dom";
 
 const people = [
   {
@@ -122,13 +122,14 @@ const people = [
   // More people...
 ]
 
-export default function Example() {
+export function ListView({history}) {
   return (
     <ul className="flex-1 grid grid-cols-1 gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 p-2 overflow-y-scroll">
       {people.map((person) => (
         <li
           key={person.email}
           className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 rounded-md"
+          onClick={() => history.push("/detail/111-1111-1111")}
         >
           <div className="flex-1 flex flex-col">
             <img className="w-full h-3/5 flex-shrink-0 mx-auto bg-black rounded-t-md" src={"https://i.ibb.co/yXVYkpV/storage-services.jpg"} alt="" />
@@ -145,3 +146,5 @@ export default function Example() {
     </ul>
   )
 }
+
+export default withRouter(ListView)

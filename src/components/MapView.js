@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import ReactMapGL, { Marker } from 'react-map-gl';
 import Geocoder from 'react-mapbox-gl-geocoder';
+// TODO: remove this & replace with tailwind
 import { Container, Col, Row, Button } from 'reactstrap';
 
 // const mapStyle = {
@@ -26,6 +27,7 @@ const CustomMarker = ({index, marker}) => {
   )
 };
 
+// TODO: move this to the utils one
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
     return {
