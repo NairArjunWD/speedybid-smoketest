@@ -1,8 +1,14 @@
 import React, { PureComponent } from 'react';
-import ReactMapGL, { Marker } from 'react-map-gl';
-import Geocoder from 'react-mapbox-gl-geocoder';
 // TODO: remove this & replace with tailwind
 import { Container, Col, Row, Button } from 'reactstrap';
+
+import ReactMapGL, {Marker} from 'react-map-gl'
+import 'mapbox-gl/dist/mapbox-gl.css';
+import mapboxgl from 'mapbox-gl';
+// import Geocoder from 'react-mapbox-gl-geocoder';
+
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
 // const mapStyle = {
 //     width: '100%',
@@ -54,8 +60,10 @@ class MapView extends PureComponent {
 
     this.mapStyle = {
         width: '100%',
-        height: height - 55
+        height: height - 50
     }
+
+    console.log("STEVENDEBUG mapboxApiKey ", mapboxApiKey);
   }
 
   onSelected = (viewport, item) => {
