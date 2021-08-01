@@ -12,7 +12,7 @@ export default function Example() {
   return (
     <>
       <Header />
-      <div className="flex bg-gray-50 overflow-hidden" style={{ height: height - 55}}>
+      <div className="flex bg-gray-50 overflow-hidden" style={{ height: height - 50}}>
         <div className="flex-1 min-w-0 flex flex-col overflow-hidden">
           <main className="flex-1 flex overflow-hidden">
             <div className="flex-1 flex xl:overflow-hidden">
