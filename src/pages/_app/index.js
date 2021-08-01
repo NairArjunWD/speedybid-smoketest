@@ -10,9 +10,10 @@ const App = () => {
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={Homepage} />
+          {/* Swap listings page with real homepage */}
+          <Route path="/" exact component={ListingsPage} />
           <Route path="/contact" exact component={ContactPage} />
-          <Route path="/listings" exact component={ListingsPage} />
+          <Route path="/listings/:location" exact component={ListingsPage} />
           <Route path="*" component={NotFoundPage} />
         </Switch>
       </Router>
