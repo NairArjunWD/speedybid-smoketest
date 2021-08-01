@@ -1,10 +1,9 @@
 import React from "react";
+import ListsView from "../../components/ListsView"
 
 const ListingsPage = () => {
   return (
-    <>
-      Listings page goes here. Create its components in the components directory
-    </>
+    <ListsView />
   );
 };
 

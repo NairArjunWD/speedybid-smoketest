@@ -108,16 +108,22 @@ export default function Example() {
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
-              <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
+              <div className="hidden md:flex-1 md:flex md:items-center md:justify-end">
                 <Popover.Group as="nav" className="flex space-x-10">
-                  <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900">
-                    Pricing
+                  <a href="#" className="text-sm font-light text-gray-400 hover:text-gray-900">
+                    Find Storage
                   </a>
-                  <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900">
-                    Docs
+                  <a href="#" className="text-sm font-light text-gray-400 hover:text-gray-900">
+                    List Storage
+                  </a>
+                  <a href="#" className="text-sm font-light text-gray-400 hover:text-gray-900">
+                    Enterprise
+                  </a>
+                  <a href="#" className="text-sm font-light text-gray-400 hover:text-gray-900">
+                    Help
                   </a>
                 </Popover.Group>
-                <div className="flex items-center md:ml-12">
+                <div className="flex items-center">
                   {/* <a href="#" className="text-sm font-medium text-gray-500 hover:text-gray-900">
                     Join / Sign in
                   </a> */}
