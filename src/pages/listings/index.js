@@ -23,7 +23,7 @@ export default function Example() {
                 aria-labelledby="primary-heading"
                 className="min-w-0 flex-1 h-full flex flex-col overflow-hidden lg:order-last"
               >
-                <div className="p-3">Storage space available in <span className="font-medium">San Francisco, CA</span></div>
+                <div className="p-4">Storage spaces available in <span className="font-medium">San Francisco, CA</span></div>
                 <ListsView />
               </section>
 
