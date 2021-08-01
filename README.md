@@ -7,15 +7,13 @@ yarn start
 
 ### Deployment
 
-msg Steven for the login account for heroku, then run,
+msg Steven for the login account for netifly & access to this repo: https://github.com/steven4354/speedybid-smoketest/tree/master
 
-```
-heroku login
-git push heroku master
-heroku open
-```
+then, click `Fetch upstream` on the above forked repo
 
-the project name for this on heroku is: `murmuring-bayou-95193`
+go to the netlify console and you should see a deployment is in progress for `objective-mccarthy-e18467`
+
+in the netlify console you can open the deployed app and find the url it is deployed to 
 
 ### Todos
 
