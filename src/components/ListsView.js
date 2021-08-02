@@ -138,7 +138,7 @@ export function ListView({history}) {
                 <h3 className="text-gray-900 text-base font-medium text-left px-3">$929/mo</h3>
                 <h3 className="mt-1 text-gray-500 text-sm font-light text-left px-3">15x15 space</h3>
             </div>
-            <h3 className="mt-3 text-gray-500 text-sm font-thin text-left px-3">2222 Terra Dr. San Francis....</h3>
+            <h3 className="mt-3 text-gray-500 text-sm font-thin text-left px-3 sm:truncate">2222 Terra Dr. San Francisco, CA, USA, 95682</h3>
             </div>
           </div>
         </li>
