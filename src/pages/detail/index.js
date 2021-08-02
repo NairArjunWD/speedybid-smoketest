@@ -1,4 +1,5 @@
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 import { TrendingUpIcon } from '@heroicons/react/outline'
 
 const whoToFollow = [
@@ -56,6 +57,14 @@ export default function Example() {
             </div>
             <div className="mt-12 sm:px-3">
               <h2 className="text-base font-normal leading-7 text-gray-900 sm:text-base sm:truncate">24/7 Storage - 15x15 Space Size</h2>
+              <p class="mt-2 text-sm font-light text-gray-400 sm:text-base">The Hive Lavender combines coworking, beautiful work space, fantastic amenities and meeting rooms, with a Hive Café at the centre of the space surrounded by hotdesks, booth desks, 2 to 32 person private offices. Plus a full-sized fashion photography studio, portrait studio, You Tube Studio, plus a 3D printing & prototyping workshop all under the same roof.</p>
+            </div>
+            <div className="mt-12 sm:px-3">
+              <h2 className="text-base font-normal leading-7 text-gray-900 sm:text-base sm:truncate">Amenities & Services</h2>
+              <p class="mt-2 text-sm font-light text-gray-400 sm:text-base">The Hive Lavender combines coworking, beautiful work space, fantastic amenities and meeting rooms, with a Hive Café at the centre of the space surrounded by hotdesks, booth desks, 2 to 32 person private offices. Plus a full-sized fashion photography studio, portrait studio, You Tube Studio, plus a 3D printing & prototyping workshop all under the same roof.</p>
+            </div>
+            <div className="mt-12 sm:px-3">
+              <h2 className="text-base font-normal leading-7 text-gray-900 sm:text-base sm:truncate">About Hive Coworking</h2>
               <p class="mt-2 text-sm font-light text-gray-400 sm:text-base">The Hive Lavender combines coworking, beautiful work space, fantastic amenities and meeting rooms, with a Hive Café at the centre of the space surrounded by hotdesks, booth desks, 2 to 32 person private offices. Plus a full-sized fashion photography studio, portrait studio, You Tube Studio, plus a 3D printing & prototyping workshop all under the same roof.</p>
             </div>
           </main>
@@ -140,6 +149,7 @@ export default function Example() {
           </aside>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
